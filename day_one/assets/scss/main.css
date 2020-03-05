@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 12px #171717;
+          box-shadow: 12px #171717;
+}
+
+.wapper .timer {
+  width: 150px;
+  padding: 15px;
+  color: #f3f3f3;
+  background: #171717;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+}
+
+.wapper .btn_element {
+  width: 150px;
+  text-align: center;
+  padding: 15px;
+  background: #f3f3f3;
+  border-radius: 0 0 5px 5px;
+}
+
+.wapper .btn_element .btn {
+  padding: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.wapper .btn_element .start {
+  outline: none;
+}
+/*# sourceMappingURL=main.css.map */

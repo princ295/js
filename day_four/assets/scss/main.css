@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  background: #f3f3f3;
+}
+
+.app {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.calc {
+  width: 380px;
+  border-radius: 4px;
+}
+
+.calc .calc__display {
+  position: relative;
+  background: #C4c4c4;
+  border-radius: 10px 10px 0 0;
+  padding: 45px;
+}
+
+.calc .calc__display .action {
+  background: #ffff00;
+}
+
+.calc .calc__display .display {
+  position: absolute;
+  right: 20px;
+  background: #C4c4c4;
+  color: #111111;
+  bottom: 85%;
+}
+
+.calc .calc_actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 15px;
+  background: #111111;
+  margin: 0 -45px -45px -45px;
+  border-radius: 0 0 5px 5px;
+}
+
+.calc .calc_actions button {
+  -webkit-box-flex: 50px;
+      -ms-flex: 50px;
+          flex: 50px;
+  padding: 4px 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 2px;
+}
+/*# sourceMappingURL=main.css.map */

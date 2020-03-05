@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wapper{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    box-shadow: 12px #171717;
+
+    .timer{
+        width: 150px;
+        padding: 15px;
+        color: #f3f3f3;
+        background: #171717;
+        border-radius: 5px 5px 0 0;
+        text-align: center;
+    }
+    .btn_element{
+        width: 150px;
+        text-align:center;
+        
+        padding: 15px;
+        background: #f3f3f3;
+        border-radius: 0 0 5px 5px;
+
+        .btn{
+            padding: 4px;  
+            outline: none; 
+            border: none;
+            cursor: pointer;
+            
+            font-weight: 400;
+        }
+        .start{
+            outline: none;
+        }
+    }
+}
